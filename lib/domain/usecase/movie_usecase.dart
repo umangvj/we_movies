@@ -12,7 +12,6 @@ class MovieUseCase {
   Future<Either<ApiError, NowPlayingRes>> getNowPlayingMovies({
     required int pageNumber,
   }) async {
-    print('api called getNowPlayingMovies');
     return movieRepository.getNowPlayingMovies(pageNumber: pageNumber);
   }
 
