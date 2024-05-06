@@ -205,6 +205,8 @@ class _MovieScreenState extends State<MovieScreen> {
                                                   fontSize: 16,
                                                   fontWeight: FontWeight.w500,
                                                 ),
+                                                maxLines: 1,
+                                                overflow: TextOverflow.ellipsis,
                                               ),
                                             ],
                                           ),
